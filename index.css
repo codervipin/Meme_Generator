@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section h1{
+    position: absolute;
+    top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.main{
+    height: 70vh;
+    width: 60vw;
+    background: rgba( 255, 255, 255, 0.3 );
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.meme{
+    height: 50vh;
+    width: 60vw;
+    /* background-color: white; */
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.mybutton{
+    width: 160px;
+    height: 50px;
+
+}
+.mybutton button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #C850C0;
+    border-radius: 10px;
+    color: white;
+    /* box-shadow: 5px 5px 5px peru; */
+   
+}
+.mybutton button:hover{
+    scale: 1.1;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    
+}
